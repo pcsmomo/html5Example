@@ -91,3 +91,9 @@ body {
 	outline: 0;
 	z-index: 10;
 }
+
+/* 레이아웃 */
+#header, #visual, #contentsArea, #slogan, #footerInner {
+	width: 940px;
+	margin: 0 auto;
+}
