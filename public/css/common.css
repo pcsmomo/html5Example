@@ -53,3 +53,17 @@ fieldset{
 	url('font/webcafeIcon.ttf') format('truetype'),
 	url('font/webcafeIcon.svg#webcaferegular') format('svg');
 }
+
+/* 링크 스타일 */
+a:link {
+	color: #4f4f4f;
+	text-decoration: none;
+}
+a:visited {
+	color: #8a8e91;
+	text-decoration: none;
+}
+a:hover, a:focus {
+	color: #ff0000;
+	text-decoration: none;
+}
