@@ -106,26 +106,37 @@ body {
 	height: 120px;
 }
 #contentsArea {
+	overflow: hidden;
+	/*
+	아래 속성을 IE 10에서 지원하지 않아, float: left 로 대체
+	display: flex;
+	flex-flow: row wrap;
+	*/
 	min-height: 400px;
 	padding: 30px 0 30px 30px;
 }
 #usefulArea {
+	float: left;
 	width: 250px;
 	margin-right: 30px;
 }
 #infoArea {
+	float: left;
 	width: 380px;
 	margin-right: 30px;
 }
 #linkArea {
+	float: left;
 	width: 190px;
 	margin-right: 30px;
 }
 #contents {
+	float: left;
 	width: 620px;
 	margin-right: 30px;
 }
 #twitter {
+	float: left;
 	width: 200px;
 	margin-left: 30px;
 }
