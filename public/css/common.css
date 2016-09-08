@@ -93,6 +93,12 @@ body {
 }
 
 /* 레이아웃 */
+#wrapper {
+	background-color: #fff;
+	background-image: url(images/bg_flower.png), linear-gradient(to bottom, #c7c7c7 0%, #ffffff 70%, #ffffff 100%);
+	background-position: center top;
+	background-repeat: no-repeat;
+}
 #header, #visual, #contentsArea, #slogan, #footerInner {
 	width: 940px;
 	margin: 0 auto;
@@ -145,4 +151,5 @@ body {
 }
 #footer {
 	padding: 15px 0;
+	background-image: linear-gradient(to bottom, #c7c7c7 0%, #ffffff 70%, #ffffff 100%);
 }
