@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="Teresa,BMH">
+	<meta name="keywords" content="HTML5,CSS3,묻고 답하기,질문과 답변,웹카페 Q&amp;A">
+	<meta name="description" content="HTML5와 CSS3 관련 궁금한 점을 웹카페 묻고 답하기 게시판에 올려주세요">
+	<meta name="robots" content="all">
+	<title>묻고 답하기 | WebCafe</title>
+	<link rel="shortcut icon" href="images/common/webcafe.ico">
+	<link rel="apple-touch-icon" href="images/common/webcafe.png">
+	<link rel="stylesheet" href="css/common.css" >
+	<link rel="stylesheet" href="css/sub.css">
+	<script src="js/jQuery.js"></script>
+	<script src="js/webcafe.js"></script>
+</head>
+<body>
+<!-- 건너뛰기 링크 시작 -->
+<a id="skipNav" href="#contentsArea">본문 바로가기</a>
+<!-- //건너뛰기 링크 종료 -->
+<!-- #warpper 시작 -->
+<div id="wrapper">
+	<!-- #header 시작 -->
+	<header id="header" role="banner">
+		<% include header.ejs%>
+	</header>
+	<!-- //#header 종료 -->
+	<!-- #visual 시작 -->
+	<div id="visual">
+		<% include visual.ejs%>
+	</div>
+	<!-- //#visual 종료 -->
+	<!-- #contentsArea 시작 -->
+	<div id="contentsArea">
+		<!-- 묻고 답하기 시작 -->
+		<section id="contents" class="qnaBoard">
+			<!-- 현재위치 시작 -->
+			<p class="location">
+				Home &gt; 묻고 답하기 &gt; <strong>묻고 답하기</strong>
+			</p>
+			<!-- //현재위치 종료 -->
+			<h1>묻고 답하기</h1>
+			<p class="allPost">전체 <strong>102</strong>개 게시물</p>
+			<table class="boardTable">
+				<caption>묻고 답하기 게시물</caption>
+				<thead>
+				<tr>
+					<th scope="col" class="bbsNumber">No</th>
+					<th scope="col" class="bbsTitle">제목</th>
+					<th scope="col" class="bbsDate">등록일</th>
+					<th scope="col" class="bbsHit">조회수</th>
+				</tr>
+				</thead>
+				<tbody>
+				<tr>
+					<td>102</td>
+					<td><a href="#">모바일 웹 개발에서 viewport의 역할이 궁금해요</a><span>[<strong>2</strong>]</span></td>
+					<td><time datetime="2013-10-04">2013.10.04</time></td>
+					<td>121</td>
+				</tr>
+				<tr>
+					<td>101</td>
+					<td><a href="#">IE11버전 출시에 따른 준비로 무엇이 필요할까요?</a><span>[<strong>2</strong>]</span></td>
+					<td><time datetime="2013-10-04">2013.10.04</time></td>
+					<td>97</td>
+				</tr>
+				<tr>
+					<td>100</td>
+					<td><a href="#">최신 웹 브라우저의 SVG 이미지 지원여부가 궁금해요.</a><span>[<strong>2</strong>]</span></td>
+					<td><time datetime="2013-10-04">2013.10.04</time></td>
+					<td>123</td>
+				</tr>
+				<tr>
+					<td>99</td>
+					<td><a href="#">웹 접근성 평가 시 유용한 응용프로그램을 소개해 주세요.</a><span>[<strong>2</strong>]</span></td>
+					<td><time datetime="2013-10-04">2013.10.04</time></td>
+					<td>97</td>
+				</tr>
+				<tr>
+					<td>98</td>
+					<td><a href="#">오페라에서 CSS3 Animation은 언제쯤 지원될까요?</a><span>[<strong>2</strong>]</span></td>
+					<td><time datetime="2013-10-04">2013.10.04</time></td>
+					<td>123</td>
+				</tr>
+				</tbody>
+			</table>
+			<p class="paging">
+				<a href="#" class="btnPrev">이전 5개</a>
+				<span class="pageNumber"> <a href="#">5</a> <strong>4</strong> <a href="#">3</a> <a href="#">2</a> <a href="#">1</a> </span>
+				<a href="#" class="btnNext">다음 5개</a>
+			</p>
+		</section>
+		<!-- 묻고 답하기 종료 -->
+		<!-- twitter 시작 -->
+		<% include twitter.ejs %>
+		<!-- //twitter 종료 -->
+	</div>
+	<!-- //#contentsArea 종료 -->
+	<!-- #slogan 시작 -->
+	<% include slogan.ejs %>
+	<!-- //#slogan 종료 -->
+	<!-- #footer 시작 -->
+	<% include footer.ejs %>
+	<!-- //#footer 종료 -->
+</div>
+<!-- //#warpper 종료 -->
+</body>
+</html>

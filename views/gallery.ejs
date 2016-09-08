@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="Teresa,BMH">
+	<meta name="keywords" content="이미지 갤러리,Web Cafe,Web Standards,Web Accessibility,웹 접근성,웹 표준">
+	<meta name="description" content="이미지 갤러리 형식의 예제">
+	<meta name="robots" content="all">
+	<title>이미지 자료실 | WebCafe</title>
+	<link rel="shortcut icon" href="images/common/webcafe.ico">
+	<link rel="apple-touch-icon" href="images/common/webcafe.png">
+	<link rel="stylesheet" href="css/common.css" >
+	<link rel="stylesheet" href="css/sub.css">
+	<script src="js/jQuery.js"></script>
+	<script src="js/webcafe.js"></script>
+</head>
+<body>
+<!-- 건너뛰기 링크 시작 -->
+<a id="skipNav" href="#contentsArea">본문 바로가기</a>
+<!-- //건너뛰기 링크 종료 -->
+<!-- #warpper 시작 -->
+<div id="wrapper">
+	<!-- #header 시작 -->
+	<header id="header" role="banner">
+		<% include header.ejs%>
+	</header>
+	<!-- //#header 종료 -->
+	<!-- #visual 시작 -->
+	<div id="visual">
+		<% include visual.ejs%>
+	</div>
+	<!-- //#visual 종료 -->
+	<!-- #contentsArea 시작 -->
+	<div id="contentsArea">
+		<!-- 이미지 갤러리 시작 -->
+		<section id="contents" class="gallery">
+			<!-- 현재위치 시작 -->
+			<p class="location">
+				Home &gt; 자료실 &gt; <strong>이미지 자료실</strong>
+			</p>
+			<!-- //현재위치 종료 -->
+			<h1>이미지 갤러리</h1>
+			<ul>
+				<li>
+					<a href="#">
+						<figure>
+							<img src="images/pds/img_thumb01.jpg" alt="">
+							<figcaption>다와 (Tawa Vol2)</figcaption>
+						</figure>
+					</a>
+					<time class="date" datetime="2013-10-04">2013.10.04</time>
+				</li>
+				<li>
+					<a href="#">
+						<figure>
+							<img src="images/pds/img_thumb02.jpg" alt="">
+							<figcaption>제주 해변에서</figcaption>
+						</figure>
+					</a>
+					<time class="date" datetime="2013-10-04">2013.10.04</time>
+				</li>
+				<li>
+					<a href="#">
+						<figure>
+							<img src="images/pds/img_thumb03.jpg" alt="">
+							<figcaption>웃어요</figcaption>
+						</figure>
+					</a>
+					<time class="date" datetime="2013-10-04">2013.10.04</time>
+				</li>
+				<li>
+					<a href="#">
+						<figure>
+							<img src="images/pds/img_thumb04.jpg" alt="">
+							<figcaption>사진의 주인공은?</figcaption>
+						</figure>
+					</a>
+					<time class="date" datetime="2013-10-04">2013.10.04</time>
+				</li>
+				<li>
+					<a href="#">
+						<figure>
+							<img src="images/pds/img_thumb05.jpg" alt="">
+							<figcaption>개냥이의 잠자는 모습</figcaption>
+						</figure>
+					</a>
+					<time class="date" datetime="2013-10-04">2013.10.04</time>
+				</li>
+				<li>
+					<a href="#">
+						<figure>
+							<img src="images/pds/img_thumb06.jpg" alt="">
+							<figcaption>초록?, 초록!</figcaption>
+						</figure>
+					</a>
+					<time class="date" datetime="2013-10-04">2013.10.04</time>
+				</li>
+				<li>
+					<a href="#">
+						<figure>
+							<img src="images/pds/img_thumb07.jpg" alt="">
+							<figcaption>벽에 부딪혔나요?</figcaption>
+						</figure>
+					</a>
+					<time class="date" datetime="2013-10-04">2013.10.04</time>
+				</li>
+				<li>
+					<a href="#">
+						<figure>
+							<img src="images/pds/img_thumb08.jpg" alt="">
+							<figcaption>안돼! 찍지마~</figcaption>
+						</figure>
+					</a>
+					<time class="date" datetime="2013-10-04">2013.10.04</time>
+				</li>
+			</ul>
+			<p class="paging">
+				<a href="#" class="btnPrev">이전 5개</a>
+				<span class="pageNumber"><a href="#">5</a><strong>4</strong><a href="#">3</a><a href="#">2</a><a href="#">1</a></span>
+				<a href="#" class="btnNext">다음 5개</a>
+			</p>
+		</section>
+		<!-- 이미지 갤러리 종료 -->
+		<!-- twitter 시작 -->
+		<% include twitter.ejs %>
+		<!-- //twitter 종료 -->
+	</div>
+	<!-- //#contentsArea 종료 -->
+	<!-- #slogan 시작 -->
+	<% include slogan.ejs %>
+	<!-- //#slogan 종료 -->
+	<!-- #footer 시작 -->
+	<% include footer.ejs %>
+	<!-- //#footer 종료 -->
+</div>
+<!-- //#warpper 종료 -->
+</body>
+</html>

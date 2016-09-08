@@ -7,4 +7,24 @@ router.get('/', function(req, res, next) {
   res.render('index');
 });
 
+router.get('/index', function(req, res, next) {
+  res.render('index');
+});
+
+router.get('/join', function(req, res, next) {
+  res.render('join');
+});
+
+router.get('/introduce', function(req, res, next) {
+  res.render('introduce');
+});
+
+router.get('/qna', function(req, res, next) {
+  res.render('qna');
+});
+
+router.get('/gallery', function(req, res, next) {
+  res.render('gallery');
+});
+
 module.exports = router;

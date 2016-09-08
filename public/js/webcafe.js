@@ -1,4 +1,5 @@
 /* Main Menu */
+/*
 window.onload = init;
 // 메인 페이지 초기화
 function init(){
@@ -32,9 +33,9 @@ function getElementNextSibling(node){
 	}
 	return nextElement;
 }
-
+*/
 /* HTML5 Video Player */
-
+/*
 	//전역변수 지정
 	var video=false;
 	var video_timer=false;
@@ -148,3 +149,4 @@ function getElementNextSibling(node){
 		range_time.value++;
 		playtime_span.innerHTML=tiem_hms;
 	}//End of play_time();
+*/

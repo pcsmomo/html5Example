@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="Teresa,BMH">
+	<meta name="keywords" content="웹카페 회원가입,Web Cafe,Web Standards,Web Accessibility,웹 접근성,웹 표준">
+	<meta name="description" content="웹 카페 회원가입을 위한 입력 폼 예제입니다.">
+	<meta name="robots" content="all">
+	<title>회원가입 | WebCafe</title>
+	<link rel="shortcut icon" href="images/common/webcafe.ico">
+	<link rel="apple-touch-icon" href="images/common/webcafe.png">
+	<link rel="stylesheet" href="css/common.css" >
+	<link rel="stylesheet" href="css/sub.css">
+</head>
+<body>
+<!-- 건너뛰기 링크 시작 -->
+<a id="skipNav" href="#contentsArea">본문 바로가기</a>
+<!-- //건너뛰기 링크 종료 -->
+<!-- #warpper 시작 -->
+<div id="wrapper">
+	<!-- #header 시작 -->
+	<header id="header" role="banner">
+		<% include header.ejs%>
+	</header>
+	<!-- //#header 종료 -->
+	<!-- #visual 시작 -->
+	<div id="visual">
+		<% include visual.ejs%>
+	</div>
+	<!-- //#visual 종료 -->
+	<!-- #contentsArea 시작 -->
+	<div id="contentsArea">
+		<!-- 회원가입 시작 -->
+		<section id="contents" class="memberJoin">
+			<!-- 현재위치 시작 -->
+			<p class="location">
+				Home &gt; <strong>회원가입</strong>
+			</p>
+			<!-- //현재위치 종료 -->
+			<h1>회원가입</h1>
+			<p class="formSign">
+				<strong class="require">필수</strong>는 반드시 입력하여야 하는 항목입니다.
+			</p>
+			<form action="join.php" method="post" id="joinForm" name="joinForm">
+				<fieldset>
+					<legend>회원가입 정보 입력 폼</legend>
+					<p>
+						<label for="name">성명 <strong class="require">필수</strong></label>
+						<input type="text" id="name" name="name" required placeholder="홍길동">
+					</p>
+					<p>
+						<label for="id">아이디 <strong class="require">필수</strong></label>
+						<input type="password" id="id" name="id" required placeholder="Guest">
+						<a href="pop_idcheck.html" class="idCheck">ID중복확인</a>
+					</p>
+					<p>
+						<label for="password">암호 <strong class="require">필수</strong></label>
+						<input type="password" id="password" name="password" required placeholder="영문/숫자 4~8자 이내">
+					</p>
+					<p>
+						<label for="confirmPassword">암호 확인 <strong class="require">필수</strong></label>
+						<input type="password" id="confirmPassword" name="confirmPassword" required>
+					</p>
+					<p>
+						<label for="address" class="labelAddress">주소</label><a href="find_zipcode.html" class="findZipcode">우편번호 찾기</a>
+						<input type="tel" id="zipcode" name="zipcode" maxlength="3" size="4" title="우편번호 앞자리">
+						-
+						<input type="tel" name="zipcode2" maxlength="3" size="4" title="우편번호 뒷자리">
+						<input type="text" id="address" name="address" maxlength="100" size="60" placeholder="입력 예) 서울시 마포구 상수동 123-12 한주빌딩 5층">
+					</p>
+					<p>
+						<label for="tel">연락처</label>
+						<input type="tel" id="tel" name="tel" maxlength="11" size="20" pattern="[0-9]{11}" title="하이픈(-)은 입력할 수 없습니다." placeholder="입력 예) 01042542375">
+					</p>
+					<p>
+						<label for="email">이메일 <strong class="require">필수</strong></label>
+						<input type="email" id="email" name="email" size="30" required placeholder="입력 예) seulbinim@gmail.com">
+					</p>
+					<p class="mailing">
+						<em>메일링 리스트 가입</em><span>메일링리스트에 가입하시면 WebCafe의 뉴스레터를 받아보실 수 있습니다.</span>
+						<input type="radio" id="mailingOk" name="mailing" value="Yes" checked="checked">
+						<label for="mailingOk">예 </label>
+						<input type="radio" id="mailingNo" name="mailing" value="No">
+						<label for="mailingNo">아니오</label>
+					</p>
+					<div class="btnJoinArea">
+						<button type="submit" class="btnOk">회원가입</button>
+						<button type="button" class="btnCancel">취소</button>
+					</div>
+				</fieldset>
+			</form>
+		</section>
+		<!-- 회원가입 종료 -->
+		<!-- twitter 시작 -->
+		<% include twitter.ejs %>
+		<!-- //twitter 종료 -->
+	</div>
+	<!-- //#contentsArea 종료 -->
+	<!-- #slogan 시작 -->
+	<% include slogan.ejs %>
+	<!-- //#slogan 종료 -->
+	<!-- #footer 시작 -->
+	<% include footer.ejs %>
+	<!-- //#footer 종료 -->
+</div>
+<!-- //#warpper 종료 -->
+</body>
+</html>
