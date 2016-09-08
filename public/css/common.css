@@ -76,3 +76,18 @@ body {
 	line-height: 1.2;
 	font-family: 'nanum';
 }
+
+/* 건너뛰기 링크 */
+#skipNav {
+	position: absolute;
+	left: -9999em;
+}
+#skipNav:focus {
+	left: 50%;
+	margin: 3px 0 0 -3em;
+	padding: 5px 15px;
+	color: #fff;
+	background: #000;
+	outline: 0;
+	z-index: 10;
+}
