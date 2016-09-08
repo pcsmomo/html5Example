@@ -97,3 +97,19 @@ body {
 	width: 940px;
 	margin: 0 auto;
 }
+#header {
+	height: 110px;
+}
+#visual {
+	height: 120px;
+}
+#contentsArea {
+	min-height: 400px;
+	padding: 30px 0 30px 30px;
+}
+#slogan {
+	padding: 15px 0;
+}
+#footer {
+	padding: 15px 0;
+}
