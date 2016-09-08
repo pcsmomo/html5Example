@@ -12,3 +12,9 @@ ul{
 fieldset{
 	border:0;
 }
+
+/* 숨김 콘텐츠 */
+.hidden, legend, caption{
+	position:absolute;
+	left:-9999em;
+}
