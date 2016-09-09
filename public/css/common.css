@@ -259,6 +259,20 @@ body {
 }
 /* 비주얼 */
 /* 비주얼 텍스트 */
+@keyframes textAni {
+	0% {
+		font-size: 12px;
+		top: 0px;	/* CSS3에 추가된 transform 속성의 translate 값을 사용할 수 있지만, 의도치 않은 스크롤 발생``; */
+		left: 0px;
+		opacity: 0.2;
+	}
+	100% {
+		font-size: 24px;
+		top: 75px;
+		left: 400px;
+		opacity: 1;
+	}
+}
 #visual {
 	position: relative;
 }
@@ -266,6 +280,7 @@ body {
 	font-family: Georgia, serif;
 	font-size: 24px;
 	font-weight: bold;
+	animation: textAni 2s;
 	position: absolute;
 	top: 75px;
 	left: 400px;
