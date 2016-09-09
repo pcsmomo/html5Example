@@ -322,9 +322,6 @@ body {
 	animation-delay: 1s;	/* 1초 뒤에 지연실행되도록. */
 }
 /* 슬로건 */
-#slogan {
-	position: relative;
-}
 #slogan h1 {
 	width: 110px;
 	height: 90px;
