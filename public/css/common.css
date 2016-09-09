@@ -257,3 +257,16 @@ body {
 	right: 0;
 	display: none;
 }
+/* 비주얼 */
+/* 비주얼 텍스트 */
+#visual {
+	position: relative;
+}
+#visual p {
+	font-family: Georgia, serif;
+	font-size: 24px;
+	font-weight: bold;
+	position: absolute;
+	top: 75px;
+	left: 400px;
+}
