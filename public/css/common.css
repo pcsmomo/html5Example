@@ -187,7 +187,23 @@ body {
 .mainMenu {
 	border-top: 2px solid #000;
 	border-radius: 0 0 5px 5px;
-	background-image: linear-gradient (to bottom, #ffc848 0%, #ff8208 40%, #ff8208 60%, #ffc848 100%);
+	background-image: linear-gradient(to bottom, #ffc848 0%, #ff8208 40%, #ff8208 60%, #ffc848 100%);
 	padding-left: 225px;
 	height: 45px;
+}
+.mainMenu li, .mainMenu a {
+	display: inline-block;
+}
+.mainMenu ul {
+	display: none;	/* 작업하는 동안 invisible 처리 */
+}
+.mainMenu > li > a {
+	line-height: 45px;
+	font-family: "NanumEX";
+	font-size: 14px;
+	letter-spacing: 1px;
+	padding: 0 20px;
+	color: #fff;
+	border-left: 1px solid #fff;
+	text-shadow: 1px 0px rgba(0, 0, 0, 0.2), -1px 0px rgba(0, 0, 0, 0.2), 0 1px rgba(0, 0, 0, 0.2), 0 -1px rgba(0, 0, 0, 0.2);
 }
