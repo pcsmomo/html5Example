@@ -389,3 +389,15 @@ body {
 .guide li:first-child a:before {
 	content: "";
 }
+address {
+	font-style: normal;
+	margin-bottom: 5px;
+}
+address span {
+	margin-right: 10px;
+}
+.techLogoArea {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
