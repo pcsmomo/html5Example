@@ -150,10 +150,14 @@ body {
 }
 #slogan {
 	padding: 15px 0;
+	position: relative;
 }
 #footer {
 	padding: 15px 0;
 	background-image: linear-gradient(to bottom, #c7c7c7 0%, #ffffff 70%, #ffffff 100%);
+}
+#footerInner {
+	position: relative;
 }
 /* 공통 스타일 */
 /* 헤더 콘텐츠 */
@@ -350,4 +354,15 @@ body {
 }
 #slogan q:after {
 	content: "";	/* default content(") 삭제 */
+}
+/* 푸터 콘텐츠 */
+.guide, address, .copyright {
+	margin-left: 200px;
+	margin-right: 100px;
+}
+/* 푸터 로고 */
+.footerLogo {
+	position: absolute;
+	left: 35px;
+	top: 45px;
 }
