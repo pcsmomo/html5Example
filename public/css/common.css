@@ -285,3 +285,35 @@ body {
 	top: 75px;
 	left: 400px;
 }
+
+/* 비주얼 배경 애니메이션 */
+@keyframes flowerAni {
+	0% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+#visual:before, #visual:after{
+	position: absolute;
+	top: -20px;
+	left: 0;
+	width: 100%;
+	height: 140px;	/* 박스의 위치가 -20px으로 시작하기 때문에 visual(120px)보다 20px 크게 설정 */
+	content: "";
+	animation: flowerAni 2s;
+	animation-direction: alternate;	 /* 0% -> 100% -> 0% 번갈아 가면서 */
+	animation-iteration-count: infinite;
+}
+#visual:before {
+	background-image: url(images/ani_flower_01.png), url(images/ani_flower_02.png);
+	background-repeat: no-repeat;
+	background-position: 0 5px, 670px 0;
+}
+#visual:after {
+	background-image: url(images/ani_flower_03.png), url(images/ani_flower_04.png);
+	background-repeat: no-repeat;
+	background-position: 300px 35px, 800px 65px;
+	animation-delay: 1s;	/* 1초 뒤에 지연실행되도록. */
+}
