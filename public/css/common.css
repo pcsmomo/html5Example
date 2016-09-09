@@ -165,3 +165,21 @@ body {
 	top: 37px;
 	left: 60px;
 }
+/* 웹카페 안내 링크 */
+.infoLink {
+	text-align: right;
+}
+.infoLink li {
+	display: inline-block;	/* inline-block은 inline 박스처럼 렌더링되지만 block 박스에 지정할 수 있는 다양한 속성을 사용할 수 있는 값입니다. */
+}
+.infoLink a {
+	display: inline-block;
+	padding: 8px 0 7px 3px;
+}
+.infoLink a:before {
+	content: ":";
+	padding-right: 8px;
+}
+.infoLink :first-child a:before {
+	content: "";
+}
