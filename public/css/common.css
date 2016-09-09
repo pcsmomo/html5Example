@@ -183,3 +183,11 @@ body {
 .infoLink :first-child a:before {
 	content: "";
 }
+/* 메인 메뉴 */
+.mainMenu {
+	border-top: 2px solid #000;
+	border-radius: 0 0 5px 5px;
+	background-image: linear-gradient (to bottom, #ffc848 0%, #ff8208 40%, #ff8208 60%, #ffc848 100%);
+	padding-left: 225px;
+	height: 45px;
+}
