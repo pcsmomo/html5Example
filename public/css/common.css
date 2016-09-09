@@ -220,4 +220,23 @@ body {
 .mainMenu ul {
 	position: absolute;
 	z-index: 10;
+	white-space: nowrap;
+}
+.aboutHtml {
+	display: block;
+}
+.aboutCss {
+	display: none;
+}
+.webStandard {
+	display: none;
+}
+.webAccessibility {
+	display: none;
+}
+.qna {
+	display: none;
+}
+.archive {
+	display: none;
 }
