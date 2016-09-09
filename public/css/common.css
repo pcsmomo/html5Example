@@ -222,6 +222,20 @@ body {
 	z-index: 10;
 	white-space: nowrap;
 }
+.mainMenu ul a {
+	padding: 8px 0 7px 15px;
+}
+.mainMenu ul a:before {
+	font-family: webcafeIcon;
+	content: "r";	/* Rectangle 모양의 아이콘을 의미하는 이니셜 */
+	color: #666666;
+	position: relative;
+	top: 2px;
+}
+.mainMenu ul a:hover:before, .mainMenu ul a:focus:before {
+	content: "c";	/* Check 모양의 아이콘을 의미하는 이니셜 */
+	color: #ff0000;
+}
 .aboutHtml {
 	display: block;
 }
@@ -232,11 +246,14 @@ body {
 	display: none;
 }
 .webAccessibility {
+	left: -100px;
 	display: none;
 }
 .qna {
+	left: -150px;
 	display: none;
 }
 .archive {
+	right: 0;
 	display: none;
 }
