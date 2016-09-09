@@ -338,3 +338,16 @@ body {
 	color: #a09784;
 	font-size: 13px;
 }
+#slogan q {
+	font-weight: bold;
+}
+#slogan q:before {
+	font-size: 36px;
+	position: relative;	/* 이걸 지정하지 않으면 top, left 가 안 먹힌다. */
+	top: 15px;
+	left: -5px;
+	color: #765725;
+}
+#slogan q:after {
+	content: "";	/* default content(") 삭제 */
+}
