@@ -324,5 +324,6 @@ body {
 	background: url(images/coffee.png) no-repeat;
 	background-size: 110px 90px;
 	white-space: nowrap;
-	text-indent: 110px;
+	text-indent: 110px;	/* IR(Image Replacement 기법 중, text-indent 방법 사용. 이 외에 padding, position 방법이 있다. */
+	overflow: hidden;
 }
