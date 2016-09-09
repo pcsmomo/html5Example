@@ -194,9 +194,6 @@ body {
 .mainMenu li, .mainMenu a {
 	display: inline-block;
 }
-.mainMenu ul {
-	display: none;	/* 작업하는 동안 invisible 처리 */
-}
 .mainMenu > li > a {
 	line-height: 45px;
 	font-family: "NanumEX";
@@ -216,4 +213,11 @@ body {
 	width: 100%;
 	height: 2px;
 	background: #000;
+}
+.mainMenu > li {
+	position: relative;
+}
+.mainMenu ul {
+	position: absolute;
+	z-index: 10;
 }
