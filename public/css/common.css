@@ -107,6 +107,8 @@ body {
 }
 #header {
 	height: 110px;
+	background-color: #fff;
+	border-radius: 0 0 15px 15px;
 	padding: 0 30px;
 	position: relative;	/* 로고가 #header를 기준으로 배치될 수 있도록 하기 위해서는 #header의 position을 변경해야 합니다. */
 }
@@ -123,6 +125,8 @@ body {
 	*/
 	min-height: 400px;
 	padding: 30px 0 30px 30px;
+	background-color: #fff;
+	border-radius: 15px 15px 0 0;
 }
 #usefulArea {
 	float: left;
@@ -169,6 +173,7 @@ body {
 	/* 만약 로고가 #header를 기준으로 배치되도록 할 경우 #header의 position을 relative, absolute, fixed 값중 하나를 가지도록 선언해야 한다. */
 	top: 37px;
 	left: 60px;
+	z-index: 10;
 }
 /* 웹카페 안내 링크 */
 .infoLink {
@@ -222,6 +227,9 @@ body {
 .mainMenu > li {
 	position: relative;
 }
+.mainMenu > li:hover ul, .mainMenu > li > a:focus + ul {
+	display: block;
+}
 .mainMenu ul {
 	position: absolute;
 	z-index: 10;
@@ -242,7 +250,7 @@ body {
 	color: #ff0000;
 }
 .aboutHtml {
-	display: block;
+	display: none;
 }
 .aboutCss {
 	display: none;
