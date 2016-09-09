@@ -112,6 +112,7 @@ body {
 }
 #visual {
 	height: 120px;
+	position: relative;
 }
 #contentsArea {
 	overflow: hidden;
@@ -276,9 +277,6 @@ body {
 		left: 400px;
 		opacity: 1;
 	}
-}
-#visual {
-	position: relative;
 }
 #visual p {
 	font-family: Georgia, serif;
