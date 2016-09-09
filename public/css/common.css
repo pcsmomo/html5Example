@@ -107,6 +107,7 @@ body {
 }
 #header {
 	height: 110px;
+	padding: 0 30px;
 }
 #visual {
 	height: 120px;
