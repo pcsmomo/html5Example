@@ -366,3 +366,26 @@ body {
 	left: 35px;
 	top: 45px;
 }
+/* 푸터 링크 목록 */
+.guide {
+	background: #7b8385;
+	border-radius: 5px;
+	padding-left: 20px;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+.guide li {
+	display: inline-block;
+}
+.guide a {
+	display: inline-block;
+	color: #fff;
+	padding: 10px 15px 10px 0;
+}
+.guide a:before {
+	content: "|";
+	padding-right: 20px;
+}
+.guide li:first-child a:before {
+	content: "";
+}
