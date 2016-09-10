@@ -1,0 +1,15 @@
+/* 트위터 */
+#twitter {
+	padding-top: 15px;
+	position: relative;
+}
+#twitter:before {
+	content: "";
+	width: 10px;
+	height: 90%;
+	position: absolute;
+	top: 20px;
+	left: -35px;
+	border-radius: 50%;	/* 타원모양 */
+	background: linear-gradient(to right, rgba(251,251,251,0.5) 0%, rgba(229,229,229,0.7) 100%);
+}
