@@ -267,6 +267,26 @@
 .news article {
 	margin: 25px 0 0 130px;
 }
+.news article h1 {
+	margin-bottom: 10px;
+	font-size: 12px;
+}
+.news article h1:before {
+	font-family: webcafeIcon;
+	content: "r";
+	color: #666666;
+	position: relative;
+	top: 2px;
+}
+.news time {
+	font-size: 11px;
+	margin-left: 12px;
+}
+.news p {
+	margin-top: 10px;
+	margin-left: 12px;
+	line-height: 1.4;
+}
 .news figure {
 	position: absolute;
 	top: 45px;
