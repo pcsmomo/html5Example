@@ -212,9 +212,37 @@
 	width: 100%;
 	background-color: #fff;
 }
+.board li {
+	margin-bottom: 10px;
+}
+.board ul a {
+	display: inline-block;
+	width: 300px;
+	overflow: hidden;	/* 텍스트가 300px 이상일 경우 말줄임 형식으로 표시하기 위해 */
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.board ul a:before {
+	font-family: webcafeIcon;
+	content: "r";
+	color: #666666;
+	position: relative;
+	top: 2px;
+}
+.board time {
+	float: right;
+}
 .board .more {
 	position: absolute;
 	top: 0;
 	right: 0;
 	padding: 8px;
+}
+.more:before {
+	font-family: webcafeIcon;
+	position: relative;
+	top: 2px;
+	content: "p";	/* PLUS */
+	color: #00b745;
+	margin-right: 3px;
 }
