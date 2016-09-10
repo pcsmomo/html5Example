@@ -163,3 +163,28 @@
 	border: 1px solid #949494;
 	background: linear-gradient(to bottom, #9c9da1 0%, #666666 30%, #4e4f56 100%);
 }
+/* 공지사항 및 자료실 */
+.board {
+	margin-top: 20px;
+	height: 170px;
+}
+.board section {
+	position: relative;
+}
+.board h1 {
+	float: left;
+	font-size: 12px;
+}
+.board ul {
+	position: absolute;
+	top: 40px;
+	left: 0;
+	width: 100%;
+	background-color: #fff;
+}
+.board .more {
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 8px;
+}
