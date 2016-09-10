@@ -352,7 +352,7 @@
 	background-repeat: no-repeat;
 }
 .btnEventPrev {
-	background-position: 0 0;
+	background-position: 0 0;	/* CSS Sprites 기법 */
 }
 .btnEventNext {
 	background-position: 100% 0;
@@ -408,6 +408,7 @@
 	overflow: hidden;
 }
 .hotLink li {
+	position: relative;
 	margin: 7px 0 0 0;
 	counter-increment: number;	/* counter의 식별자로 number 지정 */
 }
@@ -423,9 +424,27 @@
 	color: #fff;
 	font-size: 0.75em;
 }
+.hotLink em {
+	float: right;
+	background: url(images/rank.png) no-repeat 0 0;
+	width: 8px;
+	height: 0;
+	overflow: hidden;
+	padding-top: 12px;
+	margin-top: 2px;
+}
+.hotLink .up {
+	background-position: 0 0;	/* CSS Sprites 기법 */
+}
+.hotLink .stop {
+	background-position: 0 50%;
+}
+.hotLink .down {
+	background-position: 0 100%;
+}
 .hotLink .more {
 	position: absolute;
-	top: 0;
-	right: 0;
+	top: 8px;
+	right: 6px;
 	padding: 8px;
 }
