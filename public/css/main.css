@@ -357,6 +357,7 @@
 .btnEventNext {
 	background-position: 100% 0;
 }
+/* 관련 사이트 */
 .relatedLink h1 {
 	font-size: 14px;
 	padding: 10px 0 10px 0;
@@ -364,4 +365,24 @@
 }
 .relatedLink span {
 	color: #ff3c00;
+}
+.relatedLink ul {
+	height: 25px;
+	overflow: hidden;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	background: #fff;
+	transition: all 0.2s;	/* form 변화의 점진적 진행 */
+}
+.relatedLink ul:hover {
+	height: 125px;
+	padding: 10px 0;
+}
+.relatedLink li {
+	height: 25px;
+	line-height: 25px;
+	text-indent: 1.5em;
+}
+.relatedLink a {
+	display: block;
 }
