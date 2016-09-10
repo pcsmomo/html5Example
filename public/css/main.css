@@ -311,3 +311,31 @@
 	background-image: linear-gradient(to bottom, #ffffff 0%, #f4f4f4 100%);
 	padding: 10px 13px;
 }
+/* 신규 이벤트 */
+.event h1 {
+	font-size: 14px;
+	padding-bottom: 10px;
+}
+.event span {
+	color: #ff3c00;
+}
+.event img {
+	border: 1px solid #eee;
+	box-shadow: 4px 4px 4px 0px rgba(0,0,0,0.1);
+}
+.event p {
+	padding: 10px 0;
+	line-height: 1.4;
+}
+.event em {
+	display: block;
+	font-style: normal;
+}
+.relatedLink h1 {
+	font-size: 14px;
+	padding: 10px 0 10px 0;
+	border-top: 1px solid #ccc;
+}
+.relatedLink span {
+	color: #ff3c00;
+}	
