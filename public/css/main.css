@@ -127,4 +127,39 @@
 	line-height: 1.45;
 	text-align: justify;
 }
-/**/
+/* 웹 카페 검색 */
+.search {
+	border-radius: 15px 15px 0 0;
+	background-image: linear-gradient(to bottom, #dddddd 0%, #f8f8f8 50%, #ffffff 100%);
+	padding: 10px 20px 0 20px;
+}
+.search label {
+	padding: 2px 0 4px 2px;
+	font-weight: bold;
+	color: #999;
+}
+.search label:before {
+	font-family: webcafeIcon;
+	content: "z";
+	position: relative;
+	top: 5px;
+	color: #7d7d7d;
+	font-size: 18px;
+	font-weight: normal;
+	margin-right: 5px;
+}
+#keyword {
+	width: 196px;
+	height: 18px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	margin: 0 5px;
+}
+.search button {
+	padding: 3px 10px;
+	color: #fff;
+	font-weight: bold;
+	border-radius: 3px;
+	border: 1px solid #949494;
+	background: linear-gradient(to bottom, #9c9da1 0%, #666666 30%, #4e4f56 100%);
+}
