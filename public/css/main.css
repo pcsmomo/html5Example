@@ -246,3 +246,30 @@
 	color: #00b745;
 	margin-right: 3px;
 }
+/* 새소식 */
+.news {
+	margin-top: 20px;
+	position: relative;
+}
+.news:before {
+	content: "";
+	position: absolute;
+	top: 27px;
+	left: 0;
+	width: 362px;
+	height: 1px;
+	background-image: linear-gradient(to right, #e3e3e3 0%, #ffffff 100%);
+}
+.news > h1 {
+	color: #ff5a00;
+	font-size: 14px;
+}
+.news article {
+	margin: 25px 0 0 130px;
+}
+.news .more {
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 8px;
+}
