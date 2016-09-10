@@ -402,6 +402,27 @@
 .hotLink span {
 	color: #ff3c00;
 }
+.hotLink ol {
+	margin: 5px 0 0 0;
+	padding: 0;
+	overflow: hidden;
+}
+.hotLink li {
+	margin: 7px 0 0 0;
+	counter-increment: number;	/* counter의 식별자로 number 지정 */
+}
+.hotLink li:last-child {
+	margin-bottom: 2px;
+}
+.hotLink li:before {
+	content: counter(number, decimal);	/* count값을 식별자인 number로 지정. decimal로 형식을 지정할 경우 생략가능. */
+	background: #a1a1a1;
+	border-radius: 3px;
+	padding: 2px 5px;
+	margin-right: 5px;
+	color: #fff;
+	font-size: 0.75em;
+}
 .hotLink .more {
 	position: absolute;
 	top: 0;
