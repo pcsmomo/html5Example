@@ -386,3 +386,25 @@
 .relatedLink a {
 	display: block;
 }
+/* 인기 사이트 */
+.hotLink {
+	margin-top: 20px;
+	position: relative;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	padding: 10px 12px 8px 10px;
+	background-color: #ffffff;
+	background-image: linear-gradient(to bottom, #ffffff 0%, #f4f4f4 100%);
+}
+.hotLink h1 {
+	font-size: 14px;
+}
+.hotLink span {
+	color: #ff3c00;
+}
+.hotLink .more {
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 8px;
+}
