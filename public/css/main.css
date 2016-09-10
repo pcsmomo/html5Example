@@ -17,6 +17,7 @@
 	background-color: #fff;
 	border-radius: 3px 3px 0 0;
 	padding: 10px 10px 0 10px;
+	position: relative;
 }
 .login fieldset {
 	border-bottom: 1px solid #ccc;
@@ -32,6 +33,20 @@
 	padding: 1px 1px 1px 4px;
 	border: 1px solid #ccc;
 }
+.login button {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	width: 50px;
+	height: 50px;
+	color: #fff;
+	font-size: 11px;
+	font-weight: bold;
+	border: 1px solid #ff4e00;
+	border-radius: 3px;
+	background-color: #fb5d1f;
+	background-image: linear-gradient(to bottom, #fe5f18 0%, #fa4306 100%);
+}
 #userId {
 	margin-bottom: 6px;
 }
@@ -39,4 +54,21 @@
 	background-color: #fff;
 	border-radius: 0 0 3px 3px;
 	padding: 0 10px 0 10px;
+	overflow: hidden;	/* 자식요소<a>가 모두 float 라서 이 녀석도 함께 높이를 잃어버림. float들의 부모요서에 overflow 속성값을 visible 이외의 값으로 지정하면 된다. */
+}
+.join {
+	float: left;
+	padding: 10px 0;
+}
+.find {
+	float: right;
+	padding: 10px 0;
+}
+.memberLink a:before {
+	font-family: webcafeIcon;
+	content: "g";
+	color: #fa3d00;
+	position: relative;
+	top: 2px;
+	margin-right: 3px;
 }
