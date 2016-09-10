@@ -13,3 +13,38 @@
 	border-radius: 50%;	/* 타원모양 */
 	background: linear-gradient(to right, rgba(251,251,251,0.5) 0%, rgba(229,229,229,0.7) 100%);
 }
+#twitter h1 {
+	font-size: 14px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+}
+#twitter h1:before {
+	font-family: webcafeIcon;
+	content: "t";
+	color: #00acee;
+	font-size: 24px;
+	position: relative;
+	top: 5px;
+	margin-right: 5px;
+}
+.twitterArticle {
+	margin: 20px 0;
+}
+.twitterUserProfile {
+	width: 45px;
+	height: 45px;
+	margin-right: 10px;
+}
+.twitterContent {
+	margin: 10px 0;
+	line-height: 1.4;
+}
+.twitterContent mark {
+	background-color: transparent;
+	font-weight: bold;
+}
+.twitterDate {
+	display: block;
+	text-align: right;
+	color: #787878;
+}
