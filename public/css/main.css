@@ -93,3 +93,15 @@
 	background: url(images/validation_icon.png) no-repeat 20px 5px;
 	background-size: 20px 20px;
 }
+/* 웹 관련 용어 */
+.term {
+	margin-top: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	background-color: #ffffff;
+	background-image: linear-gradient(to bottom, #ffffff 0%, #f4f4f4 100%);
+	padding: 15px 20px;
+}
+.term dl {
+	margin-top: 15px;
+}
