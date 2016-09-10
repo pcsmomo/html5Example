@@ -267,6 +267,16 @@
 .news article {
 	margin: 25px 0 0 130px;
 }
+.news figure {
+	position: absolute;
+	top: 45px;
+	left: 0;
+	text-align: center;
+}
+.news img {
+	box-shadow: 0px 10px 15px #eee;
+	margin-bottom: 15px;
+}
 .news .more {
 	position: absolute;
 	top: 0;
