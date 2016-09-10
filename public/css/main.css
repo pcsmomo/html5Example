@@ -72,3 +72,24 @@
 	top: 2px;
 	margin-right: 3px;
 }
+/* 유효성 검사 링크 */
+.validation {
+	margin-top: 20px;
+}
+.validation li {
+	margin-bottom: 10px;
+	border-radius: 20px;
+	border: 1px solid #ccc;
+	background-color: #ffffff;
+	background-image: linear-gradient(to bottom, #ffffff 0%, #ebebeb 100%);
+}
+.validation a {
+	display: block;
+	color: #9c9c9c;
+	font-weight: bold;
+	text-indent: 45px;
+	height: 30px;
+	line-height: 30px;
+	background: url(images/validation_icon.png) no-repeat 20px 5px;
+	background-size: 20px 20px;
+}
