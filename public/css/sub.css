@@ -274,3 +274,18 @@
 .bbsHit {
 	width: 15%;
 }
+.boardTable th {
+	background-color: #fc9b28;
+	background-image: linear-gradient(to bottom, #ffc848 0%, #ff8208 50%, #ffc848 100%);
+	color: #fff;
+}
+.boardTable th:first-child {
+	border-top-left-radius: 10px;
+}
+.boardTable th:last-child {
+	border-top-right-radius: 10px;
+}
+.boardTable span {
+	margin-left: 5px;
+	color: #f48002;
+}
