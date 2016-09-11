@@ -346,3 +346,43 @@
 	color: #666;
 	background: #fffcef;
 }
+#joinForm input {
+	margin: 10px 0;
+}
+#joinForm input:not([type="radio"]) {
+	border: 1px solid #aaa;
+	height: 18px;
+	padding-left: 5px;
+}
+input#address {
+	display: block;
+	margin:0;
+}
+.labelAddress {
+	height: 50px;
+	line-height: 50px;
+}
+#joinForm .mailing label {
+	float: none;
+	width: auto;
+	padding: 0;
+	background: none;
+}
+#joinForm input[type="radio"] {
+	margin: 0;
+}
+a.idCheck, a.findZipcode {
+	font-family: nanumEx;
+	font-size: 11px;
+	color: #fff;
+	padding: 3px 15px;
+	margin-left: 5px;
+	border-radius: 20px;
+	text-shadow: 1px 1px 1px #ed676c, -1px -1px 1px #ed676c;
+	background: #fe8389;
+}
+.findZipcode {
+	position: absolute;
+	left: 260px;
+	top: 12px;
+}
