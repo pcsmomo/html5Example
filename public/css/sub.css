@@ -123,4 +123,37 @@
 	height: 40px;
 	background: url(images/webcafe_video_logo.png) no-repeat 0 0;
 	background-size: 40px 40px;
+	padding: 5px 0 0 70px;
+}
+.btnPlay {
+	vertical-align: top;
+	width: 0;
+	height: 0;
+	padding: 0;
+	overflow: hidden;
+	border-width: 15px 25px;
+	border-style: solid;
+	border-color: transparent transparent transparent #fff;
+	background-color: transparent;
+}
+.btnPause {
+	vertical-align: top;
+	width: 0;
+	height: 0;
+	overflow: hidden;
+	padding: 30px 0 0 5px;	/* IR 기법 */
+	border-width: 0 10px 0 10px;
+	border-color: transparent #fff;
+	border-style: none solid;
+	background-color: transparent;
+	margin-right: 25px;
+}
+.btnStop {
+	vertical-align: middle;
+	width: 15px;
+	height: 0;
+	padding: 15px 0 0 0;
+	overflow: hidden;
+	border: 0;
+	background: #fff;
 }
