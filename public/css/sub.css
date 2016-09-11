@@ -285,6 +285,26 @@
 .boardTable th:last-child {
 	border-top-right-radius: 10px;
 }
+.boardTable th, .boardTable td {
+	padding: 10px 0;
+	text-align: center;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.boardTable td {
+	border-bottom: 1px solid #ccc;
+}
+.boardTable td:nth-child(2) {
+	text-align: left;
+}
+.boardTable a {
+	display: inline-block;
+	width: 90%;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
 .boardTable span {
 	margin-left: 5px;
 	color: #f48002;
