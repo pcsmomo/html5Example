@@ -362,6 +362,15 @@ input#address {
 	height: 50px;
 	line-height: 50px;
 }
+.mailing em {
+	font-style: normal;
+	height: 35px;
+	line-height: 35px;
+}
+.mailing span {
+	display: block;
+	margin: 10px 0;
+}
 #joinForm .mailing label {
 	float: none;
 	width: auto;
