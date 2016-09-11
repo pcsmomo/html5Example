@@ -70,3 +70,24 @@
 	padding-bottom: 15px;
 	margin-bottom: 20px;
 }
+/* HTML5 소개 */
+.html5Intro > h2 {
+	font-size: 16px;
+	color: #1698a7;
+	margin: 20px 0;
+}
+.html5Intro > h2:before {
+	font-family: webcafeIcon;
+	content: "b";
+	font-size: 20px;
+	color: #9cd3da;
+	position: relative;
+	top: 5px;
+}
+.html5Intro p {
+	margin: 20px;
+	line-height: 1.6;
+}
+.html5Intro .location {
+	margin: 0;
+}
