@@ -216,3 +216,33 @@
 .gallery img {
 	border: 1px solid #ccc;
 }
+/* 페이징 */
+.paging {
+	margin-top: 20px;
+	text-align: center;
+}
+.btnPrev, .btnNext {
+	display: inline-block;
+	vertical-align: middle;
+	width: 21px;
+	height: 20px;
+	padding: 0;
+	white-space: nowrap;
+	text-indent: 20px;	/* IR 기법 */
+	overflow: hidden;
+	background: url(images/backpage_forwardpage.png) no-repeat;
+}
+.btnPrev {
+	background-position: 0 0;
+}
+.btnNext {
+	background-position: 100% 0;
+}
+.paging a, .paging strong {
+	margin: 0 5px;
+	line-height: 20px;
+}
+.paging strong {
+	border-bottom: 1px solid #ff3c00;
+	color: #ff3c00;
+}
