@@ -91,3 +91,36 @@
 .html5Intro .location {
 	margin: 0;
 }
+#videoPlayer {
+	position: relative;
+	width: 530px;
+	height: 310px;
+	margin: 0 auto;
+	border: 1px solid #db7506;
+	border-radius: 5px;
+	background-image: linear-gradient(to bottom, #f9c251 0%, #f47f01 100%);
+}
+#videoPlayer video {
+	margin: 10px;
+	width: 300px;
+	border: 1px solid #db7506;
+	border-radius: 5px;
+}
+.videoCaption {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	width: 200px;
+	height: 290px;
+	overflow-y: auto;
+	background-color: #fff;
+	border: 1px solid #db7506;
+	border-radius: 5px;
+}
+.videoController {
+	margin: 0 0 0 10px;
+	width: 300px;
+	height: 40px;
+	background: url(images/webcafe_video_logo.png) no-repeat 0 0;
+	background-size: 40px 40px;
+}
