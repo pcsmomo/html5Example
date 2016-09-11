@@ -259,3 +259,18 @@
 	position: relative;
 	top: 6px;
 }
+.boardTable {
+	width: 100%;
+}
+.bbsNumber {
+	width: 15%;
+}
+.bbsTitle {
+	width: 50%;
+}
+.bbsDate {
+	width: 20%;
+}
+.bbsHit {
+	width: 15%;
+}
