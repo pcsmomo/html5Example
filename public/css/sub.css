@@ -246,3 +246,16 @@
 	border-bottom: 1px solid #ff3c00;
 	color: #ff3c00;
 }
+/* 묻고 답하기 */
+.allPost {
+	text-align: right;
+	margin: 35px 0 10px;
+}
+.allPost:before {
+	font-family: webcafeIcon;
+	content: "d";
+	font-size: 18px;
+	margin-right: 3px;
+	position: relative;
+	top: 6px;
+}
