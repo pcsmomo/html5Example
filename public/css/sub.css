@@ -48,3 +48,15 @@
 	text-align: right;
 	color: #787878;
 }
+/* 서브 페이지 공통 */
+#contents {
+	position: relative;
+}
+.location {
+	position: absolute;
+	top: 18px;
+	right: 30px;
+}
+.location strong {
+	color: #51a41e;
+}
