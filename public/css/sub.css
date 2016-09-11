@@ -60,3 +60,13 @@
 .location strong {
 	color: #51a41e;
 }
+#contents > h1 {
+	font-size: 18px;
+	font-family: nanumEX;
+	color: #ff3c00;
+	text-shadow: 1px 1px 0px rgba(0,0,0,0.2);
+	border-bottom: 2px solid #ff6738;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-bottom: 20px;
+}
