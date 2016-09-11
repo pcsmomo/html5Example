@@ -329,3 +329,20 @@
 	position: relative;
 	left: -10px;
 }
+#joinForm {
+	border-top: 2px solid #ccc;
+}
+#joinForm p {
+	position: relative;
+	border-bottom: 1px solid #ccc;
+	overflow: hidden;	/* 라인을 맞춰 준다. */
+}
+#joinForm label, .mailing em {
+	float: left;
+	width: 120px;
+	padding: 13px 20px;
+	margin-right: 10px;
+	font-weight: bold;
+	color: #666;
+	background: #fffcef;
+}
